@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.search.SearchResultsTest.checkSearchResultsNumbersInBothPagesTest","4166","Test Description: Check if the results number in both pages is same"
+"passed","tests.search.SearchResultsTest.checkSearchResultsNumbersInBothPagesTest","4195","Test Description: Check if the results number in both pages is same"
+"passed","tests.search.SearchResultsTest.checkSearchResultsNumbersInBothPagesTest","4443","Test Description: Check if the results number in both pages is same"
+"passed","tests.search.SearchResultsTest.checkSearchResultsNumbersInBothPagesTest","49943","Test Description: Check if the results number in both pages is same"
