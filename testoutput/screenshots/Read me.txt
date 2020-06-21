@@ -1,0 +1,1 @@
+This folder will contains the screenshots of the failure tests
