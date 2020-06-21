@@ -9,31 +9,32 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.NoSuchSessionException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+import pages.GoogleResultPage;
 import readers.JSONReader;
 import tests.base.BaseTest;
-import pages.*;
-import org.testng.annotations.Test;
 import utils.reports.AllureListener;
 
 import java.io.IOException;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertSame;
 
 //this class extends from base test class and the test scenario is to test if
 //the number of Search Results in page 2 == page 3
 @Listeners({AllureListener.class})
 @Epic("Automation Tests")
 @Feature("Search Tests")
-public class SearchResultsTest extends BaseTest{
+public class SearchResultsTest extends BaseTest {
 
     @DataProvider
-    public Object[][] jsonData(){
+    public Object[][] jsonData() {
         return JSONReader.JsonReader();
     }
+
     @Test(dataProvider = "jsonData", description = "Check Results number in both pages should be the same")
     @Description("Test Description: Check if the results number in both pages is same")
     public void checkSearchResultsNumbersInBothPagesTest(String searchData, String fPage, String sPage) {
-        try{
+        try {
             this.searchData = searchData;
             GoogleResultPage ResultPage = googleHomePage.makeSearchByName(searchData);
             ResultPage.waiting();
@@ -44,18 +45,18 @@ public class SearchResultsTest extends BaseTest{
             ResultPage.scrollDownTilTheEndOfThePage();
             ResultPage.selectPageAfterSearch(sPage);
             int secondPageResults = ResultPage.getNumberOfResultsByXpath();
-            assertSame(firstPageResults,secondPageResults, "The Search Results number in not the same in "+
-                    fPage+", and "+sPage);
-            System.out.println(firstPageResults+", "+secondPageResults);
+            assertSame(firstPageResults, secondPageResults, "The Search Results number in not the same in " +
+                    fPage + ", and " + sPage);
+            System.out.println(firstPageResults + ", " + secondPageResults);
         } catch (InvalidSelectorException e) {
             exceptions.ExceptionsMessages.InvalidSelectorMsg(e);
-        } catch (NoSuchElementException e){
+        } catch (NoSuchElementException e) {
             exceptions.ExceptionsMessages.NoSuchElementMsg(e);
-        } catch (ElementNotVisibleException e){
+        } catch (ElementNotVisibleException e) {
             exceptions.ExceptionsMessages.ElementNotVisibleMsg(e);
-        } catch (NoSuchSessionException e){
+        } catch (NoSuchSessionException e) {
             exceptions.ExceptionsMessages.NoSuchSessionMsg(e);
-        } catch (NullPointerException e){
+        } catch (NullPointerException e) {
             exceptions.ExceptionsMessages.NullPointerMsg(e);
         } catch (IOException e) {
             exceptions.ExceptionsMessages.IOMsg(e);

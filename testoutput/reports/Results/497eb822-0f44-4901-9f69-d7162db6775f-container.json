@@ -1,1 +1,40 @@
-{"uuid":"497eb822-0f44-4901-9f69-d7162db6775f","name":"ChromeTest","children":["5023ac3e-02d6-4cdb-9e50-0e3d83e17849"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[{"name":"Open Browser Chrome","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"browser","value":"Chrome"}],"start":1592747616450,"stop":1592747621764}],"attachments":[],"parameters":[],"start":1592747616399,"stop":1592747621765}],"afters":[],"links":[],"start":1592747616340,"stop":1592747632952}
+{
+  "uuid": "497eb822-0f44-4901-9f69-d7162db6775f",
+  "name": "ChromeTest",
+  "children": [
+    "5023ac3e-02d6-4cdb-9e50-0e3d83e17849"
+  ],
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Open Browser Chrome",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "browser",
+              "value": "Chrome"
+            }
+          ],
+          "start": 1592747616450,
+          "stop": 1592747621764
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747616399,
+      "stop": 1592747621765
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1592747616340,
+  "stop": 1592747632952
+}

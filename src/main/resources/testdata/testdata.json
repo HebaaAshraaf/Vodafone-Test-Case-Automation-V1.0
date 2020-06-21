@@ -1,7 +1,7 @@
 [
-	{
-		"DataToSearch" : "Vodafone",
-		"TheFirstPageNumber" : "2" ,
-		"TheSecondPageNumber" : "3"
-	}
+  {
+    "DataToSearch": "Vodafone",
+    "TheFirstPageNumber": "2",
+    "TheSecondPageNumber": "3"
+  }
 ]

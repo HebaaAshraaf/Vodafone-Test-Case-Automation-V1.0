@@ -1,1 +1,47 @@
-{"uuid":"a86e0c2e-ec45-4fdf-a178-5d2bb7524104","name":"tests.search.SearchResultsTest","children":["429c0411-859e-4da9-b3e4-5aab70d4b8d7"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1592748502512,"stop":1592748504637}],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[{"name":"Close the browser","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592748511936,"stop":1592748513088}],"attachments":[],"parameters":[],"start":1592748511936,"stop":1592748513088}],"links":[],"start":1592748498015,"stop":1592748513090}
+{
+  "uuid": "a86e0c2e-ec45-4fdf-a178-5d2bb7524104",
+  "name": "tests.search.SearchResultsTest",
+  "children": [
+    "429c0411-859e-4da9-b3e4-5aab70d4b8d7"
+  ],
+  "befores": [
+    {
+      "name": "setUp",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592748502512,
+      "stop": 1592748504637
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Close the browser",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1592748511936,
+          "stop": 1592748513088
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592748511936,
+      "stop": 1592748513088
+    }
+  ],
+  "links": [],
+  "start": 1592748498015,
+  "stop": 1592748513090
+}

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class GoogleResultPage extends page{
+public class GoogleResultPage extends page {
 
     //The name of the locators and url data in properties file
     protected final String page2_xpath = "google.results.page2.xpath";

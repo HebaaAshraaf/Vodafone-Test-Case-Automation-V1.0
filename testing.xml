@@ -2,28 +2,28 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="TestSuite" thread-count="1" parallel="tests" >
+<suite name="TestSuite" thread-count="1" parallel="tests">
 
     <test name="ChromeTest">
-        <parameter name="browser" value="Chrome" />
+        <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="tests.search.SearchResultsTest"></class>
         </classes>
     </test>
     <test name="FirefoxTest">
-        <parameter name="browser" value="Firefox" />
+        <parameter name="browser" value="Firefox"/>
         <classes>
             <class name="tests.search.SearchResultsTest"></class>
         </classes>
     </test>
     <test name="EdgeTest">
-        <parameter name="browser" value="Edge" />
+        <parameter name="browser" value="Edge"/>
         <classes>
             <class name="tests.search.SearchResultsTest"></class>
         </classes>
     </test>
     <test name="IETest">
-        <parameter name="browser" value="IE" />
+        <parameter name="browser" value="IE"/>
         <classes>
             <class name="tests.search.SearchResultsTest"></class>
         </classes>

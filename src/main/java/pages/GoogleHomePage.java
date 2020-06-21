@@ -15,7 +15,7 @@ public class GoogleHomePage extends page {
 
     public GoogleHomePage(WebDriver driver) throws IOException {
         super(driver);
-        driver.get(readers.PropReader.read(googleURL,prop));
+        driver.get(readers.PropReader.read(googleURL, prop));
     }
 
     @Step("Search about: {0}")

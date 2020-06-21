@@ -27,19 +27,19 @@ public interface ExceptionsMessages {
         System.out.println("Error occurred: your browser may be crashed.. " + e.getMessage());
     }
 
-    static void IOMsg (IOException e){
-        System.out.println("Error occurred: Please check your File path.. "+ e.getMessage());
+    static void IOMsg(IOException e) {
+        System.out.println("Error occurred: Please check your File path.. " + e.getMessage());
     }
 
-    static void FileNotFoundMsg(FileNotFoundException e){
-        System.out.println("Error occurred: we can not find your file.. "+ e.getMessage());
+    static void FileNotFoundMsg(FileNotFoundException e) {
+        System.out.println("Error occurred: we can not find your file.. " + e.getMessage());
     }
 
-    static void JSONParseMsg(org.json.simple.parser.ParseException e){
-        System.out.println("Error occurred: we can not parse your json file.. "+ e.getMessage());
+    static void JSONParseMsg(org.json.simple.parser.ParseException e) {
+        System.out.println("Error occurred: we can not parse your json file.. " + e.getMessage());
     }
 
-    static void NullPointerMsg(NullPointerException e){
-        System.out.println("Error occurred: we can not parse your json file.. "+ e.getMessage());
+    static void NullPointerMsg(NullPointerException e) {
+        System.out.println("Error occurred: we can not parse your json file.. " + e.getMessage());
     }
 }

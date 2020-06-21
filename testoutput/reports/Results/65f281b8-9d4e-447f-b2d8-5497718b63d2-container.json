@@ -1,1 +1,40 @@
-{"uuid":"65f281b8-9d4e-447f-b2d8-5497718b63d2","name":"IETest","children":["be7cbe3c-3e11-44df-83d5-b72867c81ed1"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[{"name":"Open Browser IE","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"browser","value":"IE"}],"start":1592747673271,"stop":1592747674664}],"attachments":[],"parameters":[],"start":1592747673270,"stop":1592747674664}],"afters":[],"links":[],"start":1592747673270,"stop":1592747726367}
+{
+  "uuid": "65f281b8-9d4e-447f-b2d8-5497718b63d2",
+  "name": "IETest",
+  "children": [
+    "be7cbe3c-3e11-44df-83d5-b72867c81ed1"
+  ],
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Open Browser IE",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "browser",
+              "value": "IE"
+            }
+          ],
+          "start": 1592747673271,
+          "stop": 1592747674664
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747673270,
+      "stop": 1592747674664
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1592747673270,
+  "stop": 1592747726367
+}

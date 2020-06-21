@@ -1,1 +1,40 @@
-{"uuid":"77c31d62-ea3e-4db4-b297-f1d1704ff201","name":"FirefoxTest","children":["f4bc26d3-0ae1-4d46-b508-e959db6d13ad"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[{"name":"Open Browser Firefox","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"browser","value":"Firefox"}],"start":1592746992157,"stop":1592746997522}],"attachments":[],"parameters":[],"start":1592746992152,"stop":1592746997522}],"afters":[],"links":[],"start":1592746992152,"stop":1592747012830}
+{
+  "uuid": "77c31d62-ea3e-4db4-b297-f1d1704ff201",
+  "name": "FirefoxTest",
+  "children": [
+    "f4bc26d3-0ae1-4d46-b508-e959db6d13ad"
+  ],
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Open Browser Firefox",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "browser",
+              "value": "Firefox"
+            }
+          ],
+          "start": 1592746992157,
+          "stop": 1592746997522
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592746992152,
+      "stop": 1592746997522
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1592746992152,
+  "stop": 1592747012830
+}

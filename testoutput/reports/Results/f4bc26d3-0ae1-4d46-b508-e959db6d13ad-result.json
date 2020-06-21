@@ -1,1 +1,189 @@
-{"name":"Check Results number in both pages should be the same","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"Test Description: Check if the results number in both pages is same","steps":[{"name":"Search about: Vodafone","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"data","value":"Vodafone"}],"start":1592747002019,"stop":1592747002139},{"name":"Waiting for a while to load the page","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592747002139,"stop":1592747002148},{"name":"Scroll down till the footer","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592747002148,"stop":1592747002161},{"name":"Select page number 2 in result pages","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"num","value":"2"}],"start":1592747002162,"stop":1592747004467},{"name":"Calculate the number of results in the page","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592747004467,"stop":1592747004502},{"name":"Waiting for a while to load the page","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592747004502,"stop":1592747004517},{"name":"Scroll down till the footer","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592747004517,"stop":1592747004529},{"name":"Select page number 3 in result pages","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"num","value":"3"}],"start":1592747004530,"stop":1592747005874},{"name":"Calculate the number of results in the page","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592747005874,"stop":1592747005887}],"attachments":[],"parameters":[{"name":"arg2","value":"3"},{"name":"arg1","value":"2"},{"name":"browser","value":"Firefox"},{"name":"arg0","value":"Vodafone"}],"start":1592747002019,"stop":1592747005887,"uuid":"f4bc26d3-0ae1-4d46-b508-e959db6d13ad","historyId":"d303deed28ecacb11ee5c1682ad35f70","fullName":"tests.search.SearchResultsTest.checkSearchResultsNumbersInBothPagesTest","labels":[{"name":"package","value":"tests.search.SearchResultsTest"},{"name":"testClass","value":"tests.search.SearchResultsTest"},{"name":"testMethod","value":"checkSearchResultsNumbersInBothPagesTest"},{"name":"parentSuite","value":"TestSuite"},{"name":"suite","value":"FirefoxTest"},{"name":"subSuite","value":"tests.search.SearchResultsTest"},{"name":"host","value":"DESKTOP-E8MHC7V"},{"name":"thread","value":"13036@DESKTOP-E8MHC7V.TestNG-tests-1(15)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"},{"name":"feature","value":"Search Tests"}],"links":[]}
+{
+  "name": "Check Results number in both pages should be the same",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Test Description: Check if the results number in both pages is same",
+  "steps": [
+    {
+      "name": "Search about: Vodafone",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "data",
+          "value": "Vodafone"
+        }
+      ],
+      "start": 1592747002019,
+      "stop": 1592747002139
+    },
+    {
+      "name": "Waiting for a while to load the page",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747002139,
+      "stop": 1592747002148
+    },
+    {
+      "name": "Scroll down till the footer",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747002148,
+      "stop": 1592747002161
+    },
+    {
+      "name": "Select page number 2 in result pages",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "num",
+          "value": "2"
+        }
+      ],
+      "start": 1592747002162,
+      "stop": 1592747004467
+    },
+    {
+      "name": "Calculate the number of results in the page",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747004467,
+      "stop": 1592747004502
+    },
+    {
+      "name": "Waiting for a while to load the page",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747004502,
+      "stop": 1592747004517
+    },
+    {
+      "name": "Scroll down till the footer",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747004517,
+      "stop": 1592747004529
+    },
+    {
+      "name": "Select page number 3 in result pages",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "num",
+          "value": "3"
+        }
+      ],
+      "start": 1592747004530,
+      "stop": 1592747005874
+    },
+    {
+      "name": "Calculate the number of results in the page",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747005874,
+      "stop": 1592747005887
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg2",
+      "value": "3"
+    },
+    {
+      "name": "arg1",
+      "value": "2"
+    },
+    {
+      "name": "browser",
+      "value": "Firefox"
+    },
+    {
+      "name": "arg0",
+      "value": "Vodafone"
+    }
+  ],
+  "start": 1592747002019,
+  "stop": 1592747005887,
+  "uuid": "f4bc26d3-0ae1-4d46-b508-e959db6d13ad",
+  "historyId": "d303deed28ecacb11ee5c1682ad35f70",
+  "fullName": "tests.search.SearchResultsTest.checkSearchResultsNumbersInBothPagesTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.search.SearchResultsTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.search.SearchResultsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "checkSearchResultsNumbersInBothPagesTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "TestSuite"
+    },
+    {
+      "name": "suite",
+      "value": "FirefoxTest"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.search.SearchResultsTest"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-E8MHC7V"
+    },
+    {
+      "name": "thread",
+      "value": "13036@DESKTOP-E8MHC7V.TestNG-tests-1(15)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "feature",
+      "value": "Search Tests"
+    }
+  ],
+  "links": []
+}

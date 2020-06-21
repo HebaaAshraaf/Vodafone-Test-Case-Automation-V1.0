@@ -1,1 +1,36 @@
-{"uuid":"8a23738d-1f15-44bf-9b1c-c5b14e621ff9","name":"tests.base.BaseTest.beforeMethod","children":["b774a37d-c496-48a1-a17b-85a084d0d6d0"],"description":"","befores":[{"name":"beforeMethod","status":"passed","stage":"finished","description":"","steps":[{"name":"Go To Google Page","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592747639978,"stop":1592747644567}],"attachments":[],"parameters":[],"start":1592747639978,"stop":1592747644567}],"afters":[],"links":[],"start":1592747639978,"stop":1592747644567}
+{
+  "uuid": "8a23738d-1f15-44bf-9b1c-c5b14e621ff9",
+  "name": "tests.base.BaseTest.beforeMethod",
+  "children": [
+    "b774a37d-c496-48a1-a17b-85a084d0d6d0"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "beforeMethod",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "Go To Google Page",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1592747639978,
+          "stop": 1592747644567
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1592747639978,
+      "stop": 1592747644567
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1592747639978,
+  "stop": 1592747644567
+}

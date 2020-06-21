@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><environment><parameter><key>User Name</key><value>Hoba</value></parameter><parameter><key>Platform</key><value>Windows 10 amd64</value></parameter></environment>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<environment>
+    <parameter>
+        <key>User Name</key>
+        <value>Hoba</value>
+    </parameter>
+    <parameter>
+        <key>Platform</key>
+        <value>Windows 10 amd64</value>
+    </parameter>
+</environment>
